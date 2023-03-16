@@ -31,38 +31,6 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <!--<div class="container-fluid px-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-4 text-center bg-secondary py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-envelope fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Email Us</h6>
-                        <span>info@example.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center bg-primary border-inner py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="m-0 text-uppercase text-white"><i class="fa fa-birthday-cake fs-1 text-dark me-3"></i>CakeZone</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center bg-secondary py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Call Us</h6>
-                        <span>+012 345 6789</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Topbar End -->
-
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
@@ -74,15 +42,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="index.html" class="nav-item nav-link">Домики</a>
-                <a href="index.html" class="nav-item nav-link">Наши контакты</a>
+                <a onclick="m1onclick()" class="nav-item nav-link ">Главная</a>
+                <a onclick="m2onclick()" class="nav-item nav-link">Домики</a>
+                <a onclick="m3onclick()" class="nav-item nav-link">Наши контакты</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Страницы</a>
                     <div class="dropdown-menu m-0">
-                        <a href="./house1.html" class="dropdown-item">house1</a>
-                        <a href="./house2.html" class="dropdown-item">house2</a>
-                        <a href="./house3.html" class="dropdown-item">house3</a>
+                        <a href="./house1.html" class="dropdown-item">Белый дом </a>
+                        <a href="./house2.html" class="dropdown-item">Купол под небом</a>
+                        <a href="./house3.html" class="dropdown-item">B's Bongalow</a>
                     </div>
                 </div>
                
@@ -93,24 +61,19 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div class="container py-5">
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header" style="margin-bottom: -90px;">
+        <div class="container ">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="font-secondary text-primary mb-4">Безумно романтично</h1>
                     <h1 class="display-1 text-uppercase text-white mb-4">COUNTRYELYSIUM</h1>
                     <h1 class="text-uppercase text-white">Лутьшее мсто для свиданий</h1>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <!--<a href="" class="btn btn-primary border-inner py-3 px-5 me-5">Read More</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">Play Video</h5>-->
+                       
                         <div class="d-flex mt-3">
-                            <a  class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;" href="#"><i class="fab fa-whatsapp fw-normal fs-1"  ></i></a>
+                            <a  class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;" href="https://wa.me/c/77713140140"><i class="fab fa-whatsapp fw-normal fs-1"  ></i></a>
 
-                            <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;"  href="#"><i class="fab fa-instagram fw-normal fs-1"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;"  href="https://www.instagram.com/countryelysium/"><i class="fab fa-instagram fw-normal fs-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -121,14 +84,14 @@
 
 
     
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <!-- hoses Start -->
+    <div class="position-relative py-5" id="id2"  >
         <div class="container">
             <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
                 <h2 class="text-primary font-secondary">Houses</h2>
                 <h1 class="display-4 text-uppercase">Наши домики</h1>
             </div>
-            <div class="row g-5">
+            <div class="row g-5" >
 
                 <div class="col-lg-4 col-md-6">
                     <a class="" href="./house1.html" style="width: 100px;">
@@ -169,12 +132,12 @@
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- houses End -->
 
 
 
     <!-- Contact Start -->
-    <div class="  position-relative px-5" style="margin-top: 90px;">
+    <div class="  position-relative px-5" style="margin-top: 90px;" id="id3">
         <div class="container">
             <div class="row g-5 mb-5">
                 <div class="col-12 text-center">
@@ -224,34 +187,36 @@
                 <div class="col-lg-8 col-md-6">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Get In Touch</h4>
+                            <h4 class="text-primary text-uppercase mb-4">СВЯЗАТЬСЯ с нами</h4>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
                                 <p class="mb-0">123 Street, New York, USA</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="fab fa-instagram text-primary me-2"></i>
-                                <p class="mb-0">info@example.com</p>
+                                <p class="mb-0">countryelysium</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
+                                <p class="mb-0">+7 771 314 01 40</p>
                             </div>
                             <div class="d-flex mt-4">
-                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i class="fab fa-whatsapp fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://wa.me/c/77713140140"><i class="fab fa-whatsapp fw-normal"></i></a>
                                 
-                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://www.instagram.com/countryelysium/"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Quick Links</h4>
+                            <h4 class="text-primary text-uppercase mb-4">Быстрые ссылки</h4>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-secondary mb-2" onclick="m1onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>начало</a>
+                                <a class="text-secondary mb-2" onclick="m2onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Домики</a>
+                                <a class="text-secondary mb-2" onclick="m3onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Наши контакты</a>
+                                <a class="text-secondary mb-2" href="./house1.html"><i class="bi bi-arrow-right text-primary me-2"></i>Белый дом</a>
+                                <a class="text-secondary mb-2" href="./house2.html"><i class="bi bi-arrow-right text-primary me-2"></i>Купол под небом</a>
+                                <a class="text-secondary mb-2" href="./house3.html"><i class="bi bi-arrow-right text-primary me-2"></i>B's Bongalow</a>
+                                
+                              
                             </div>
                         </div>
                        
@@ -261,7 +226,7 @@
         </div>
     </div>
     <div class="container-fluid text-secondary py-4" style="background: #111111;">
-        <div class="container text-center">
+        <div class="container ">
             <p class="mb-0">&copy; Designed by KobertInternation</p>
         </div>
     </div>
@@ -271,6 +236,47 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+    <script>
+        var 
+        m2PositionY = document.getElementById('id2').offsetTop,
+        m3PositionY = document.getElementById('id3').offsetTop,
+        doneValue = true,
+        windowPageYOffset = 0;
+
+        function Scroll(ScrollValue1) {
+            windowPageYOffset = window.pageYOffset;
+            if(windowPageYOffset == ScrollValue1) {
+                doneValue = true;
+            }
+            // scroll up
+            else if(windowPageYOffset >= ScrollValue1) {
+                window.scrollBy(0, -(1 + ((windowPageYOffset - ScrollValue1) / 8)));
+            }
+            // scroll down
+            else {
+                window.scrollBy(0, 1 + ((ScrollValue1 - windowPageYOffset) / 8));
+            }
+            if(windowPageYOffset != ScrollValue1) {
+                var setTimeoutScrollValue1 = setTimeout('Scroll(' + ScrollValue1 + ')', 30);
+            }
+        }
+
+        function doneOrNot(doneOrNotValue1) {
+            if(doneValue && doneOrNotValue1 != windowPageYOffset) {
+                Scroll(doneOrNotValue1);
+                doneValue = false;
+            }
+        }
+        function m1onclick() {
+            doneOrNot(0); // no need for a id since top is allways 0
+        }
+        function m2onclick() {
+            doneOrNot(m2PositionY);
+        }
+        function m3onclick() {
+            doneOrNot(m3PositionY);
+        }
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
