@@ -14,7 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -33,6 +33,8 @@
 <body>
 
     <!-- Navbar Start -->
+    <span id="top">
+        </span>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 text-uppercase text-white"><i class="fa fa-square fs-1 text-primary me-3"></i>COUNTRYELYSIUM</h1>
@@ -42,18 +44,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a onclick="m1onclick()" class="nav-item nav-link ">Главная</a>
-                <a onclick="m2onclick()" class="nav-item nav-link">Домики</a>
-                <a onclick="m3onclick()" class="nav-item nav-link">Наши контакты</a>
+                <a href="#top" class="nav-item nav-link ">Главная</a>
+                <a href="#id2" class="nav-item nav-link">Домики</a>
+                <a href="#id3" class="nav-item nav-link">Наши контакты</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Страницы</a>
                     <div class="dropdown-menu m-0">
                         <a href="./house1.html" class="dropdown-item">Белый дом </a>
-                        <a href="./house2.html" class="dropdown-item">Купол под небом</a>
+                        <!-- <a href="./house2.html" class="dropdown-item">Купол под небом</a> -->
                         <a href="./house3.html" class="dropdown-item">B's Bongalow</a>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </nav>
@@ -65,15 +67,15 @@
         <div class="container ">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="font-secondary text-primary mb-4">Свидание под куполом</h1>
+                    <h1 class="font-secondary text-primary mb-4">Безумно романтично</h1>
                     <h1 class="display-1 text-uppercase text-white mb-4">COUNTRYELYSIUM</h1>
-                    <h1 class="text-uppercase text-white">Любовь на высоте</h1>
+                    <h1 class="text-uppercase text-white">Лучшее место для свиданий</h1>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                       
-                        <div class="d-flex mt-3">
-                            <a  class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;" href="https://wa.me/c/77713140140"><i class="fab fa-whatsapp fw-normal fs-1"  ></i></a>
 
-                            <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;"  href="https://www.instagram.com/countryelysium/"><i class="fab fa-instagram fw-normal fs-1"></i></a>
+                        <div class="d-flex mt-3">
+                            <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;" href="https://wa.me/c/77713140140"><i class="fab fa-whatsapp fw-normal fs-1"  ></i></a>
+
+                            <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" style="height: 70px; width: 70px;" href="https://www.instagram.com/countryelysium/"><i class="fab fa-instagram fw-normal fs-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -83,49 +85,49 @@
     <!-- Hero End -->
 
 
-    
+
     <!-- hoses Start -->
-    <div class="position-relative py-5" id="id2"  >
+    <div class="position-relative py-5" id="id2">
         <div class="container">
             <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
                 <h2 class="text-primary font-secondary">Houses</h2>
                 <h1 class="display-4 text-uppercase">Наши домики</h1>
             </div>
-            <div class="row g-5" >
+            <div class="row g-5 text-center">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <a class="" href="./house1.html" style="width: 100px;">
                         <div class="bg-dark border-inner text-center p-4">
                             <h4 class="text-uppercase text-primary">Белый дом</h4>
                             <p class="text-white m-0">Самый большой</p>
                         </div>
-                        <div class="position-relative " >
-                            <img class="img-fluid "  src="img/team-2.jpg" alt=""  >
+                        <div class="position-relative ">
+                            <img class="img-fluid img-test" src="img/team-2.jpg" alt="">
                         </div>
-                        
+
                     </a>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <a class="" href="house2.html">
                         <div class="bg-dark border-inner text-center p-4">
                             <h4 class="text-uppercase text-primary">Купол под небом</h4>
-                            <p class="text-white m-0">Самый рамонтичный</p>
+                            <p class="text-white m-0">Самый романтичный</p>
                         </div>
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/A7S01774.PNG" alt="">
+                            <img class="img-fluid w-100 img-test" src="img/A7S01774.PNG" alt="">
                         </div>
                     </a>
-                </div>
+                </div> -->
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <a class="" href="house3.html ">
                         <div class="bg-dark border-inner text-center p-4">
                             <h4 class="text-uppercase text-primary"> B's Bongalow</h4>
                             <p class="text-white m-0">Самый уютный</p>
                         </div>
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/A7S01674.PNG" alt="">    
+                            <img class="img-fluid w-100 img-test" src="img/A7S01674.PNG" alt="">
                         </div>
                     </a>
                 </div>
@@ -137,14 +139,14 @@
 
 
     <!-- Contact Start -->
-    <div class="  position-relative px-5" style="margin-top: 90px;" id="id3">
+    <div class="position-relative px-5" style="margin-top: 90px;" id="id3">
         <div class="container">
             <div class="row g-5 mb-5">
                 <div class="col-12 text-center">
                     <h1 class="display-4 text-uppercase ">Наши контакты</h1>
 
                 </div>
-                <a class="col-lg-4 col-md-6" href="https://www.instagram.com/countryelysium/">
+                <a class="col-lg-6 col-md-6" href="https://www.instagram.com/countryelysium/">
                     <div class="bg-primary border-inner text-center text-white p-5">
                         <i class="fab fa-instagram fw-normal fs-1"></i>
                         <h6 class="text-uppercase my-2">instagram</h6>
@@ -152,17 +154,19 @@
                     </div>
                 </a>
 
-                <a class="col-lg-4 col-md-6" href="https://go.2gis.com/54w7x">
+                <!-- <a class="col-lg-4 col-md-6" href="https://go.2gis.com/du9jfd">
                     <div class="bg-primary border-inner text-center text-white p-5">
                         <i class="bi bi-geo-alt fw-normal fs-1"></i>
                         <h6 class="text-uppercase my-2">addres</h6>
-                        <span>​СТ Механизатор, 76 Медеуский район, Алматы</span>
+                        <span>Медеуский
+                            ​Район​Алматы
+                            43.245781° 76.999202°</span>
                     </div>
-                </a>
-                <a class="col-lg-4 col-md-6" href="https://wa.me/c/77713140140">
+                </a> -->
+                <a class="col-lg-6 col-md-6" href="https://wa.me/c/77713140140">
                     <div class="bg-primary border-inner text-center text-white p-5">
                         <i class="fab fa-whatsapp fw-normal fs-1"></i>
-                        
+
                         <h6 class="text-uppercase my-2">whatsapp</h6>
                         <span>+7 771 314 01 40</span>
                     </div>
@@ -181,14 +185,14 @@
     <div class="container-fluid bg-img text-secondary" style="margin-top: 90px">
         <div class="container">
             <div class="row gx-5">
-               
+
                 <div class="col-lg-8 col-md-6">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <h4 class="text-primary text-uppercase mb-4">СВЯЗАТЬСЯ с нами</h4>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">​СТ Механизатор, 76 Медеуский район, Алматы</p>
+                                <a href="https://go.2gis.com/54w7x" target="_blank">Адрес</a>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="fab fa-instagram text-primary me-2"></i>
@@ -200,80 +204,76 @@
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://wa.me/c/77713140140"><i class="fab fa-whatsapp fw-normal"></i></a>
-                                
+
                                 <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://www.instagram.com/countryelysium/"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 class="text-primary text-uppercase mb-4">Быстрые ссылки</h4>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-secondary mb-2" onclick="m1onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>начало</a>
-                                <a class="text-secondary mb-2" onclick="m2onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Домики</a>
-                                <a class="text-secondary mb-2" onclick="m3onclick()" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Наши контакты</a>
+                                <a class="text-secondary mb-2" href="#top"><i class="bi bi-arrow-right text-primary me-2"></i>Начало</a>
+                                <a class="text-secondary mb-2" href="#id2"><i class="bi bi-arrow-right text-primary me-2"></i>Домики</a>
+                                <a class="text-secondary mb-2" href="#id3"><i class="bi bi-arrow-right text-primary me-2"></i>Наши контакты</a>
                                 <a class="text-secondary mb-2" href="./house1.html"><i class="bi bi-arrow-right text-primary me-2"></i>Белый дом</a>
-                                <a class="text-secondary mb-2" href="./house2.html"><i class="bi bi-arrow-right text-primary me-2"></i>Купол под небом</a>
+                                <!-- <a class="text-secondary mb-2" href="./house2.html"><i class="bi bi-arrow-right text-primary me-2"></i>Купол под небом</a> -->
                                 <a class="text-secondary mb-2" href="./house3.html"><i class="bi bi-arrow-right text-primary me-2"></i>B's Bongalow</a>
-                                
-                              
+
+
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid text-secondary py-4" style="background: #111111;">
-        <div class="container ">
-            <p class="mb-0">&copy; Designed by KobertInternation</p>
         </div>
     </div>
     <!-- Footer End -->
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#top" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <script>
-        var 
-        m2PositionY = document.getElementById('id2').offsetTop,
-        m3PositionY = document.getElementById('id3').offsetTop,
-        doneValue = true,
-        windowPageYOffset = 0;
+        var
+            m2PositionY = document.getElementById('id2').offsetTop,
+            m3PositionY = document.getElementById('id3').offsetTop,
+            doneValue = true,
+            windowPageYOffset = 0;
 
         function Scroll(ScrollValue1) {
             windowPageYOffset = window.pageYOffset;
-            if(windowPageYOffset == ScrollValue1) {
+            if (windowPageYOffset == ScrollValue1) {
                 doneValue = true;
             }
             // scroll up
-            else if(windowPageYOffset >= ScrollValue1) {
+            else if (windowPageYOffset >= ScrollValue1) {
                 window.scrollBy(0, -(1 + ((windowPageYOffset - ScrollValue1) / 8)));
             }
             // scroll down
             else {
                 window.scrollBy(0, 1 + ((ScrollValue1 - windowPageYOffset) / 8));
             }
-            if(windowPageYOffset != ScrollValue1) {
+            if (windowPageYOffset != ScrollValue1) {
                 var setTimeoutScrollValue1 = setTimeout('Scroll(' + ScrollValue1 + ')', 30);
             }
         }
 
         function doneOrNot(doneOrNotValue1) {
-            if(doneValue && doneOrNotValue1 != windowPageYOffset) {
+            if (doneValue && doneOrNotValue1 != windowPageYOffset) {
                 Scroll(doneOrNotValue1);
                 doneValue = false;
             }
         }
-        function m1onclick() {
-            doneOrNot(0); // no need for a id since top is allways 0
-        }
-        function m2onclick() {
-            doneOrNot(m2PositionY);
-        }
-        function m3onclick() {
-            doneOrNot(m3PositionY);
-        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 
     <!-- JavaScript Libraries -->
